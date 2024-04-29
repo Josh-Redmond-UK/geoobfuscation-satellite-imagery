@@ -1,0 +1,8 @@
+tensorflow
+tensorflow-metal
+tensorflow_datasets
+tensorflow-hub
+tensorflow-addons
+numpy
+matplotlib
+tiffile

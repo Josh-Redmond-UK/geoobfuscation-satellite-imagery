@@ -1,0 +1,23 @@
+                       OLS Regression Results                      ,,,,,,
+Dep. Variable:   ,WD              ,  R-squared:         ,0.802,,,
+Model:           ,OLS             ,  Adj. R-squared:    ,0.801,,,
+Method:          ,Least Squares   ,  F-statistic:       ,1358,,,
+Date:            ,Tue, 12 Mar 2024,  Prob (F-statistic):,0,,
+Time:            ,21:41:33,  Log-Likelihood:    ,21292,,,
+No. Observations:,1350,  AIC:               ,-4.26E+04,,,
+Df Residuals:    ,1345,  BIC:               ,-4.26E+04,,,
+Df Model:        ,4,                     ,          ,,,
+Covariance Type: ,nonrobust       ,                     ,          ,,,
+                                                               ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept                                                      ,6.50E-23,2.09E-09,3.12E-14,1,-4.09E-09,4.09E-09
+ Treatment(reference='Baseline'))[T.Anisotropic Noise],4.07E-08,2.95E-09,13.781,0,3.49E-08,4.64E-08
+ Treatment(reference='Baseline'))[T.Blurred]          ,1.64E-08,2.95E-09,5.554,0,1.06E-08,2.22E-08
+ Treatment(reference='Baseline'))[T.Pixelated]        ,1.67E-08,2.95E-09,5.666,0,1.09E-08,2.25E-08
+ Treatment(reference='Baseline'))[T.Repainted]        ,1.87E-07,2.95E-09,63.481,0,1.82E-07,1.93E-07
+Omnibus:      ,224.638,  Durbin-Watson:     ,2.067,,,
+Prob(Omnibus):,0,  Jarque-Bera (JB):  ,2803.674,,,
+Skew:         ,-0.346,  Prob(JB):          ,0,,,
+Kurtosis:     ,10.026,  Cond. No.          ,5.83,,,
+,,,,,,
+Notes:,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,
